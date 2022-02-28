@@ -11,7 +11,7 @@
       .col-md-10
         img.mt-4(src='@/assets/curso/tema4/reunionVirtual.jpg')
         p.mt-4.mb-4 El eje central de este apartado es indicar cómo se debe realizar el mantenimiento del software de forma adecuada de tal manera que la calidad del aplicativo no se deteriore como resultado del uso, debemos enfocarnos en la siguiente pregunta: ¿cómo debe mantenerse el software para preservar su fiabilidad?
-        .row.mb-2.bgAcentoBotones
+        .row.mb-2.bgRosa
           .col-md-12
             .row
               .col-1
@@ -20,7 +20,7 @@
               .col-1
               .col-10
                 p De acuerdo a Ruiz & Polo (2007)
-                p.mt-2.mb-2.ms-5 todas las soluciones de software muestran mensajes para dar retroalimentación sobre el estado del sistema y para indicar si hay problemas, por lo general los mensajes de error son visuales “mensajes en la pantalla” o sonidos de alerta, en este apartado hay que proporcionar de forma detallada  el tipo de error que se presenta e indicar una solución muy puntal a este problema, se debe tener en cuenta que  estos tipos de mensajes también se pueden incluir en la guía de administrador de usuario, aunque   es mucho mejor repetir la información importante en varios lugares  ya que normalmente no se tiene control sobre la forma en que  el usuario  utiliza los manuales técnicos.
+                p.mt-2.mb-2.ms-5.text-bold todas las soluciones de software muestran mensajes para dar retroalimentación sobre el estado del sistema y para indicar si hay problemas, por lo general los mensajes de error son visuales “mensajes en la pantalla” o sonidos de alerta, en este apartado hay que proporcionar de forma detallada  el tipo de error que se presenta e indicar una solución muy puntal a este problema, se debe tener en cuenta que  estos tipos de mensajes también se pueden incluir en la guía de administrador de usuario, aunque   es mucho mejor repetir la información importante en varios lugares  ya que normalmente no se tiene control sobre la forma en que  el usuario  utiliza los manuales técnicos.
             .row
               .col-11
               .col-1
@@ -46,7 +46,6 @@
     img.mt-5(src='@/assets/curso/tema4/flujograma.png') 
     separador
 </template>
-
 <script>
 export default {
   name: 'Tema4',

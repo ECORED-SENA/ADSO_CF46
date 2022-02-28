@@ -71,7 +71,7 @@
     p.mb-4 De acuerdo a Edgpoint learning (2020):
     .row.mb-4
       .col-md-7
-        .row.mb-2.bgAcentoBotones.mt-5
+        .row.mb-2.bgRosa.mt-5
           .col-12
             .row
              .col-1
