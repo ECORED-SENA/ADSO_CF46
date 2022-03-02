@@ -11,15 +11,16 @@
           img(src='@/assets/curso/tema1/imagen1.jpg')
       .col-lg-7.col-md-12.mt-4
         .row
-          .col-12.bg-white.Neg-Der50.p-4
-            .cajon.mb-4.p-2
-              span.mb-0 La documentación en el proceso de implementación es fundamental, porque permite realizar modificaciones necesarias al proyecto sin grandes complicaciones, debido a que en estos documentos se registra todo lo que ocurre en este proceso desde las especificaciones hasta las actas de entrega, además de ser un instrumento para comunicar los detalles no tan obvios del sistema. La documentación es el registro de todos los pasos necesarios para completar un proceso, en esta parte es muy importante el "cómo" se realizan; el desarrollo de software es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
+          .col-12.bg-white.Neg-Der50.p-4.Text-peq
+            .cajon
+              p La documentación en el proceso de implementación es fundamental, porque permite realizar modificaciones necesarias al proyecto sin grandes complicaciones, debido a que en estos documentos se registra todo lo que ocurre en este proceso desde las especificaciones hasta las actas de entrega, además de ser un instrumento para comunicar los detalles no tan obvios del sistema. 
+              p.mb-0 La documentación es el registro de todos los pasos necesarios para completar un proceso, en esta parte es muy importante el "cómo" se realizan; el desarrollo de <i>software</i> es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
     .titulo-segundo.color-acento-botones
       #manTec.h2 1.1 Manuales Técnicos
     .bloque-texto-b.color-acento-botones.p-2
       .bloque-texto-b__texto
         i.fas.fa-quote-left.text-primario
-        h2.mb-0 Según el Ministerio TIC (2018), en este documento está plasmada toda la información del proyecto de software, con una descripción bien detallada sobre las características técnicas y físicas de cada elemento; este manual va dirigido al administrador del sistema y otros ingenieros para que puedan hacer un respectivo mantenimiento en caso de que sea necesario; estos deben contener como mínimo los elementos relacionados a continuación:
+        h2.mb-0 Según el Ministerio TIC (2018), en este documento está plasmada toda la información del proyecto de <em>software</em>, con una descripción bien detallada sobre las características técnicas y físicas de cada elemento; este manual va dirigido al administrador del sistema y otros ingenieros para que puedan hacer un respectivo mantenimiento en caso de que sea necesario; estos deben contener como mínimo los elementos relacionados a continuación:
         i.fas.fa-quote-right.text-primario
 
     LineaTiempoD.color-primario.mt-5
@@ -55,7 +56,7 @@
           figure
             img(src='@/assets/template/tema1/version.svg', alt='Versión')
 
-      .row(numero="5" titulo="Categoria")
+      .row(numero="5" titulo="Categoría")
         .col-md-7.mb-4.mb-md-0
           p.ms-5 Indique la categoría del sistema, de acuerdo con la clasificación del Marco de Referencia de Arquitectura Empresarial para la Gestión de TI en el Estado: • Sistema misional • Sistema de apoyo. • Portales digitales. • Sistema de direccionamiento estratégico
 
@@ -73,7 +74,7 @@
 
       .row(numero="7" titulo="Fecha de vencimiento del soporte")
         .col-md-7.mb-4.mb-md-0
-          p.ms-5 Indique la fecha hasta la cual se tiene el contrato de mantenimiento o soporte 
+          p.ms-5 Indique la fecha hasta la cual se tiene el contrato de mantenimiento o soporte.
       
         .col-md-2
           figure
@@ -105,7 +106,7 @@
 
       .row(numero="11" titulo="Documentación técnica y funcional")
         .col-md-7.mb-4.mb-md-0
-          p.ms-5 Indique la ubicación (URL) de la documentación detallada técnica y funcional del sistema (Arquitectura, manuales, diseños, etc..)
+          p.ms-5 Indique la ubicación (URL) de la documentación detallada técnica y funcional del sistema (Arquitectura, manuales, diseños, etc.).
  
         .col-md-2
           figure
@@ -113,7 +114,7 @@
      
       .row(numero="12" titulo="Arquitectura tecnológica")
         .col-md-7.mb-4.mb-md-0
-          p.ms-5 Stand Alone, web, cliente servidor, app móvil, software as a service (nube), etc.w.
+          p.ms-5 Stand Alone, <i>web</i>, cliente servidor, <em>app</em> móvil, <i>software</i> as a service (nube), etc.
       
         .col-md-2
           figure
@@ -128,7 +129,7 @@
       .col-lg-7.col-md-12.col-sm-12
         .row.mb-2.bgPrimario
           .col-12.p-4
-            p.mb-0.text-small El manual de usuario es el documento que facilita a las personas utilizar un software de manera sencilla y clara, además de brindar acceso a todas las funcionalidades que este posee. La documentación técnica es muy importante en el ciclo de vida de los sistemas de información, además de ser un entregable obligatorio de parte de los programadores. 
+            p.mb-0.text-small El manual de usuario es el documento que facilita a las personas utilizar un <i>software</i> de manera sencilla y clara, además de brindar acceso a todas las funcionalidades que este posee. La documentación técnica es muy importante en el ciclo de vida de los sistemas de información, además de ser un entregable obligatorio de parte de los programadores. 
         .row.mb-2.bgRosa
           .col-12
             .row
@@ -145,10 +146,28 @@
                 p.i.fas.fa-quote-right.Text-grande.text-primario
         .row
           .col-12
-            p Un manual de usuario se debe adecuar a la empresa que solicita el producto, los usuarios lo leen para encontrar consejos prácticos sobre cómo utilizar la solución de software o superar un problema cuando estos ocurren.
+            p Un manual de usuario se debe adecuar a la empresa que solicita el producto, los usuarios lo leen para encontrar consejos prácticos sobre cómo utilizar la solución de <i>software</i> o superar un problema cuando estos ocurren.
     p.mb-4  Para realizar un manual de usuario hay que tener en cuenta algunos consejos:
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta.bgBlanco.p-4
+        .row.justify-content-center.mb-3
+          .col-5
+            img(src='@/assets/componentes/tema1/tabla.svg' alt='AvatarTop')
+        p.text-center Planificar la información que se desea incluir, enfocarse en que se está ayudando al usuario de manera objetiva, también se debe tener en cuenta que otros recursos se pone a disposición del usuario y quienes son los responsables de elaborar el documento y de su aprobación.
+
+      .tarjeta.bgBlanco.p-4
+        .row.justify-content-center.mb-3
+          .col-5
+            img(src='@/assets/componentes/tema1/hojas2.svg' alt='AvatarTop')
+        p.text-center Seleccionar el formato para crear el manual puede ser, .doc, .txt  ,html, .pdf, .csv, .xls etc;  por lo general la mayoría de manuales se imprimen pero es recomendable tener una versión electrónica en el sitio <i>web</i>, si no lo tiene, debe pensar en donde puede alojar esta información ya que en la actualidad la gran mayoría de personas acceden a la información desde su dispositivo móvil o Smart Phone. 
+
+      .tarjeta.bgBlanco.p-4
+        .row.justify-content-center.mb-3
+          .col-5
+            img(src='@/assets/componentes/tema1/pc2.svg' alt='AvatarTop')
+        p.text-center Tener en cuenta a los lectores, el tipo de población a la cual está dirigida la solución informática. 
+
       .tarjeta.bgBlanco.p-4
         .row.justify-content-center.mb-3
           .col-5
@@ -165,28 +184,11 @@
         .row.justify-content-center.mb-3
           .col-5
             img(src='@/assets/componentes/tema1/hojas.svg' alt='AvatarTop')
-        p.text-center Mantener la documentación actualizada: Cuando hagan modificaciones en el producto, es necesario tener todo actualizado;  la documentación electrónica tiene una gran ventaja sobre la impresa,  incluso los documentos impresión pueden actualizarse para descargarlos   del sitio web de la empresa. 
+        p.text-center Mantener la documentación actualizada: Cuando hagan modificaciones en el producto, es necesario tener todo actualizado;  la documentación electrónica tiene una gran ventaja sobre la impresa,  incluso los documentos impresión pueden actualizarse para descargarlos   del sitio <i>web</i> de la empresa. 
 
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/tabla.svg' alt='AvatarTop')
-        p.text-center Planificar la información que se desea incluir, enfocarse en que se está ayudando al usuario de manera objetiva, también se debe tener en cuenta que otros recursos se pone a disposición del usuario y quienes son los responsables de elaborar el documento y de su aprobación.
-
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/hojas2.svg' alt='AvatarTop')
-        p.text-center Seleccionar el formato para crear el manual puede ser, .doc, .txt  ,html, .pdf, .csv, .xls etc;  por lo general la mayoría de manuales se imprimen pero es recomendable tener una versión electrónica en el sitio web, si no lo tiene, debe pensar en donde puede alojar esta información ya que en la actualidad la gran mayoría de personas acceden a la información desde su dispositivo móvil o Smart Phone. 
-
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/pc2.svg' alt='AvatarTop')
-        p.text-center Tener en cuenta a los lectores, el tipo de población a la cual está dirigida la solución informática. 
     p.mb-4.mt-4 Recuerde, su contenido solo es excelente si es preciso, asegúrese que lo que ofrece a sus clientes realmente les ayude a utilizar su producto. Pero por lo general debe tener la siguiente estructura:
     .row.justify-content-center.mb-4
-      .col-lg-8.col-md-10.p-4.bgPrimario
+      .col-lg-8.col-md-10.p-4.cajon.color-primario
         .row
           .col-lg-6.col-md-8
             ul.lista-ul.mt-5.ms-4
@@ -231,16 +233,16 @@
               .col-1
               .col-10
                 p.ms-5 - Según UGUR (2009)
-                p.mt-2.mb-2.ms-5 Estos manuales sirven para describir la instalación de un sistema mecánico, electrónico o un producto de software, su fin principal es instruir sobre las tareas de configuración e instalación.
+                p.mt-2.mb-2.ms-5 Estos manuales sirven para describir la instalación de un sistema mecánico, electrónico o un producto de <i>software</i>, su fin principal es instruir sobre las tareas de configuración e instalación.
             .row
               .col-11
               .col-1
                 p.i.fas.fa-quote-right.Text-grande.text-primario.mb-4       
-        p.mb-4.mt-4 Estos son los componentes principales de una guía de instalación de software:
+        p.mb-4.mt-4 Estos son los componentes principales de una guía de instalación de <i>software</i>:
     .row
       .col-4.mb-4.mt-4.bgFondoTitulo
         p.text-white.p-3.mb-0.text-bold Requisitos del sistema 
-    p.mb-4 Aquí se debe detallar qué tipo de hardware o firmware se necesita para instalar este software, se debe especificar si funciona en un sistema operativo Mac OS X o Windows 10, según Microsoft (2021) los requisitos mínimos para instalar el sistema operativo Windows 11, son los siguientes:
+    p.mb-4 Aquí se debe detallar qué tipo de hardware o <em>firmware</em> se necesita para instalar este <i>software</i>, se debe especificar si funciona en un sistema operativo Mac OS X o Windows 10, según Microsoft (2021) los requisitos mínimos para instalar el sistema operativo Windows 11, son los siguientes:
 
 
     TabsA.color-acento-botones.mb-5
@@ -259,12 +261,12 @@
             img(src="@/assets/curso/tema1/RAM.jpg")
       .tarjeta.bgRosa.p-4(titulo="Almacenamiento")
         h4.mt-4 Almacenamiento
-        p.mb-4 Dispositivo de almacenamiento de 64 GB o más. Nota: Para más información, consulta abajo en "Más información sobre los requisitos de espacio de almacenamiento para mantener Windows 11 actualizado".
+        p.mb-4 Dispositivo de almacenamiento de 64 GB o más. Nota: para más información, consulta abajo en "Más información sobre los requisitos de espacio de almacenamiento para mantener Windows 11 actualizado".
         .row.justify-content-center
           .col-md-10
             img(src="@/assets/curso/tema1/almacen1.jpg")
-      .tarjeta.bgRosa.p-4(titulo="Firmware del sistema")
-        h4.mt-4 Firmware del sistema
+      .tarjeta.bgRosa.p-4(titulo="<em>Firmware</em> del sistema")
+        h4.mt-4 <em>Firmware</em> del sistema
         p.mb-4 UEFI, compatible con Arranque seguro. Consulta aquí para obtener información sobre cómo tu PC puede cumplir este requisito.
         .row.justify-content-center
           .col-md-10
@@ -286,7 +288,7 @@
         p.mb-4 Windows 11 Home requiere conexión a Internet y una cuenta de Microsoft. El cambio fuera de Windows 11 en modo S también requiere conexión a Internet. Obtén más información sobre el modo S aquí. Para todas las ediciones de Windows 11, se requiere acceso a Internet para poder realizar actualizaciones, así como para descargar y aprovechar algunas de las  características. Para algunas características se requiere una cuenta de Microsoft.
       .tarjeta.bgRosa.p-4(titulo="Almacenamiento")
         h4.mt-4 Almacenamiento
-        p.mb-4 Dispositivo de almacenamiento de 64 GB o más. Nota: Para más información, consulta abajo en "Más información sobre los requisitos de espacio de almacenamiento para mantener Windows 11 actualizado".
+        p.mb-4 Dispositivo de almacenamiento de 64 GB o más. Nota: para más información, consulta abajo en "Más información sobre los requisitos de espacio de almacenamiento para mantener Windows 11 actualizado".
         .row.justify-content-center
           .col-md-10
             img(src="@/assets/curso/tema1/almacen2.jpg")
@@ -307,7 +309,7 @@
               img(src='@/assets/template/tema1/hombreSentado.png', alt='Características del sistema')
           .col-lg-6.col-md-12.mb-4.mb-md-0
             h4 Descripción general de las características del sistema o del producto
-            p Aquí se describen cuáles son las características básicas del software o producto en cuestión, por lo general se usa una lista o en una tabla. Ejemplo, en un software de telefonía IP (comunicación), se debe indicar cuántas líneas admite el software, cuántos usuarios y contraseñas admite, el tipo de base de datos que necesita, cuántas zonas o particiones soporta, etc.
+            p Aquí se describen cuáles son las características básicas del <i>software</i> o producto en cuestión, por lo general se usa una lista o en una tabla. Ejemplo, en un <i>software</i> de telefonía IP (comunicación), se debe indicar cuántas líneas admite el <i>software</i>, cuántos usuarios y contraseñas admite, el tipo de base de datos que necesita, cuántas zonas o particiones soporta, etc.
             .row.mb-2.bgRosa
               .col-12
                 .row
@@ -330,7 +332,7 @@
               img(src='@/assets/template/tema1/hombreCaminando.png', alt='Configuraciones de instalación')
           .col-md-6
             h4 Configuraciones de instalación
-            p Es común que un software de aplicación o tenga una instalación "típica" y una "excepcional" o "diseñada por el cliente". En ocasiones, esta instalación también se denominará "implementación" en la documentación del producto.
+            p Es común que un <i>software</i> de aplicación o tenga una instalación "típica" y una "excepcional" o "diseñada por el cliente". En ocasiones, esta instalación también se denominará "implementación" en la documentación del producto.
         
       .py-3.py-md-4(titulo="Configuración mínima de inicio rápido")
         .row.align-items-center
@@ -339,8 +341,8 @@
               img(src='@/assets/template/tema1/hombrePC.png', alt='Configuración mínima de inicio rápido')
           .col-md-6
             h4.mt-5 Configuración mínima de inicio rápido
-            p En algunos software se publica una guía de "Inicio rápido" independiente, además se explica cómo identificar e interpretar cualquier sistema o códigos de hardware y números de serie que vienen con el producto.
-            p Se deben incluir gráficos del paso a paso de cómo instalar el software, también se muestra las conexiones de cableado correctas, si las hay. Si se trata de alguna instalación física.
+            p En algunos <i>softwares</i> se publica una guía de "Inicio rápido" independiente, además se explica cómo identificar e interpretar cualquier sistema o códigos de hardware y números de serie que vienen con el producto.
+            p Se deben incluir gráficos del paso a paso de cómo instalar el <i>software</i>, también se muestra las conexiones de cableado correctas, si las hay. Si se trata de alguna instalación física.
             p Si se realiza todas las sugerencias en este manual se fomentará la lealtad del cliente, generar altos niveles de satisfacción y minimizar las llamadas al departamento de atención al cliente.
     separador
 </template>

@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Actividades de documentación y entrega de software en procesos de implantación',
+      'Actividades de documentación y entrega de <i>software</i> en procesos de implantación',
     descripcionCurso:
-      'Uno de las partes fundamentales en la etapa de implantación de software son los documentos que acompañan y dan soporte a este proceso, como son: los manuales de usuario, instalación, actas de entrega y otros.',
+      'Una de las partes fundamentales en la etapa de implantación de <i>software</i> son los documentos que acompañan y dan soporte a este proceso, como son: los manuales de usuario, instalación, actas de entrega y otros.',
     imagenBannerPrincipal: require('@/assets/curso/banner-principal-software.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal-software.png'),
   },
@@ -30,19 +30,19 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Manuales Técnicos',
+            titulo: 'Manuales técnicos',
             hash: 'manTec',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Manuales de Usuario',
+            titulo: 'Manuales de usuario',
             hash: 'manUser',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Manuales de Instalación',
+            titulo: 'Manuales de instalación',
             hash: 'manInt',
           },
         ],
@@ -85,7 +85,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Mantenimiento de software',
+        titulo: 'Mantenimiento de <i>software</i>',
         desarrolloContenidos: true,
       },
     ],
@@ -131,139 +131,70 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Bichachi, D. S. (2004). El uso de las listas de chequeo (CHEK-LIST) como herramienta para controlar la calidad de las leyes.',
+      link: 'http://www.claudiabernazza.com.ar/htm/pdf/check_list',
+    },
+    {
+      referencia:
+        'Edgepoint learning (2020). How To Train Employees On a New System Or Technology: 5 Tips.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.edgepointlearning.com/blog/how-to-train-employees-on-new-system/',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Microsoft (2021).Consulta las especificaciones, características y requisitos del sistema de Windows 11.',
+      link: 'https://www.microsoft.com/es-ar/windows/windows-11-specifications',
+    },
+    {
+      referencia:
+        'Ministerio TIC Colombia.(2018).G.SIS.03 Guía para la construcción del catálogo de Sistemas de Información',
+      link: 'https://mintic.gov.co/arquitecturati/630/w3-article-75551.html',
+    },
+    {
+      referencia:
+        'Ruiz, F., & Polo, M. (2007). Mantenimiento del Software. Grupo Alarcos, Departamento de Informática de la Universidad de Castilla-La Mancha.',
+    },
+    {
+      referencia: 'Ugur, A. (2009) How to Write a Software Installation Guide.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.technicalcommunicationcenter.com/online-classes/how-to-write-a-software-installation-guide/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: '<em>Firmware</em>',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'se conoce como <em>firmware</em> al conjunto de instrucciones de un programa informático que se encuentra registrado en una memoria ROM, flash o similar. Estas instrucciones fijan la lógica primaria que ejerce el control de los circuitos de alguna clase de artefacto.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Ram',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'es la memoria de corto plazo del computador. Su función principal es recordar la información que tienes en cada una de las aplicaciones abiertas en el computador, mientras este se encuentre encendido. Cuanta más memoria RAM tenga tu computador, más cosas podrás hacer al mismo tiempo',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Tarjeta gráfica',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'la tarjeta gráfica o tarjeta de vídeo de un componente que viene integrado en la placa base del PC o se instala a parte para ampliar sus capacidades. Concretamente, esta tarjeta está dedicada al procesamiento de datos relacionados con el vídeo y las imágenes que se están reproduciendo en el ordenador.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Tpm',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
-    },
-    {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'tiene como propósito en las acciones cotidianas que los equipos operen sin averías y fallos, eliminar toda clase de pérdidas, mejorar la fiabilidad de los equipos y emplear verdaderamente la capacidad industrial instalada.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Microsoft. (2021). Consulta las especificaciones, características y requisitos del sistema de Windows 11.',
+      tipo: 'Artículo',
+      link: 'https://www.microsoft.com/es-ar/windows/windows-11-specifications',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+        'Edgepoint learning. (2020). How To Train Employees On a New System Or Technology: 5 Tips.',
+      tipo: 'Artículo',
+      link:
+        'https://www.technicalcommunicationcenter.com/online-classes/how-to-write-a-software-installation-guide/',
     },
   ],
   creditos: {
@@ -281,6 +212,24 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Mario Fernando Meneses Calvache',
+        cargo: 'Experto Temático',
+        centro:
+          'Regional Cauca, Centro de teleinformática y producción industrial',
+      },
+      {
+        nombre: 'Adriana López',
+        cargo: 'Diseñadora Instruccional',
+        centro:
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora Metodológica y Pedagógica',
+        centro:
+          'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
+      },
     ],
     desarrolloProducto: [
       {
@@ -295,25 +244,48 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: 'Anllelo Andrés Reina Montanez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jorge Enrique Haylock Calderín',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Zuleidy María Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andrés Bolaño Rey ',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Enrique Diaz',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
