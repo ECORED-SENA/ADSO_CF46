@@ -16,33 +16,34 @@
     .titulo-segundo.color-acento-botones.mb-4
       #t_2_1_Tec.h2 2.1 Técnicas
     p.mb-4 De acuerdo a Edgpoint learning (2020), existen unos puntos específicos que hay que tener en cuenta:  
+  .container.p-4.p-md-5.bgPrimarioSuave.tarjeta
     SlyderA
       .row.bgFondoPantalla.p-5.m-5
         .col-md-12.mb-4.mb-md-0.p-5
-          h3.mt-4.mb-4.ms-4 Los instructores deben conocer muy bien el <i>sofware</i>
+          h3.mt-4.mb-4.ms-4 Los instructores deben conocer muy bien el <i>software</i>
           .row
             .col-md-6.p-2
               p.p-2.ms-4 Los formadores deben ser expertos en el manejo del programa, esto transmite confianza y entusiasmo a los usuarios de la capacitación.
               p.ms-2.mb-2.me-2.ms-4 Al diseñar la capacitación debe contar con personal profesional en la materia, los cuales tengan facilidad de expresión y buen manejo del público.   
             .col-md-6.p-2
               figure
-                img(src='@/assets/template/tema2/reunion.jpg', alt='Los instructores deben conocer muy bien el <i>sofware</i>')
+                img(src='@/assets/template/tema2/reunion.jpg', alt='Los instructores deben conocer muy bien el <i>software</i>')
       .row.bgFondoPantalla.p-5.m-5
         .col-md-12.mb-4.mb-md-0.p-5
-          h3.mt-4.mb-4.ms-4 Los instructores deben conocer muy bien el <i>sofware</i>
+          h3.mt-4.mb-4.ms-4 Los instructores deben conocer muy bien el <i>software</i>
           .row
             .col-md-6.p-2
               p.p-2.ms-4 Si la capacitación es de manera virtual o con video tutoriales asegúrase de contratar personas expertas en la creación de estos recursos ya que la presentación y la calidad es muy importante. 
             .col-md-6.p-2
               figure
-                img(src='@/assets/template/tema2/PC.jpg', alt='Los instructores deben conocer muy bien el <i>sofware</i>')
+                img(src='@/assets/template/tema2/PC.jpg', alt='Los instructores deben conocer muy bien el <i>software</i>')
 
       .row.bgFondoPantalla.p-5.m-5
         .col-md-12.mb-4.mb-md-0.p-5
           h3.mt-4.mb-4.ms-4 Hacer de la formación una prioridad
           .row
             .col-md-6.p-2
-              p.p-2.ms-4 Hay que establecer acuerdos con los jefes de personal o con los propietarios de las empresas para establecer la capacitación de manera obligatoria, esto evita problemas inconvenientes a futuro como volver a agendar capacitaciones y problemas por incorrecto manejo de <i>sofware</i> o aplicación.
+              p.p-2.ms-4 Hay que establecer acuerdos con los jefes de personal o con los propietarios de las empresas para establecer la capacitación de manera obligatoria, esto evita problemas inconvenientes a futuro como volver a agendar capacitaciones y problemas por incorrecto manejo de <i>software</i> o aplicación.
             .col-md-6.p-2
               figure
                 img(src='@/assets/template/tema2/manosPC.jpg', alt='Hacer de la formación una prioridad')
@@ -66,6 +67,7 @@
             .col-md-6.p-2
               figure
                 img(src='@/assets/template/tema2/presentacion.jpg', alt='Elegir un formato adecuado para la capacitación')
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-segundo.color-acento-botones.mb-4
       #t_2_2_Cap.h2 2.2 Plan de capacitación
     p.mb-4 De acuerdo a Edgpoint learning (2020):
@@ -134,7 +136,7 @@
 
       .row
         .col-md-10.mb-4.mb-md-0
-          p.Text-grande Acordar una fecha extra para mirar posibles problemas en el manejo de la solución de <i>sofware</i>.
+          p.Text-grande Acordar una fecha extra para mirar posibles problemas en el manejo de la solución de <i>software</i>.
         .col-md-2
           figure
             img(src='@/assets/template/tema2/calendario.svg', alt='Texto que describa la imagen')    

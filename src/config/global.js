@@ -214,19 +214,19 @@ export default {
       },
       {
         nombre: 'Mario Fernando Meneses Calvache',
-        cargo: 'Experto Temático',
+        cargo: 'Experto temático',
         centro:
-          'Regional Cauca, Centro de teleinformática y producción industrial',
+          'Regional Cauca, Centro de Teleinformática y Producción Industrial',
       },
       {
         nombre: 'Adriana López',
-        cargo: 'Diseñadora Instruccional',
+        cargo: 'Diseñadora instruccional',
         centro:
           'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
-        cargo: 'Revisora Metodológica y Pedagógica',
+        cargo: 'Revisora metodológica y pedagógica',
         centro:
           'Regional Distrito Capital – Centro para la Industria de la Comunicación Gráfica.',
       },
