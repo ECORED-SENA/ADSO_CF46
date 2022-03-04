@@ -2,142 +2,138 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+    
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
       h1  Documentación de procesos de implantación
-    .row.my-5.bgAcentoBotones
-      .col-lg-5.col-md-12
-          img(src='@/assets/curso/tema1/imagen1.jpg')
-      .col-lg-7.col-md-12.mt-4
-        .row
-          .col-12.bg-white.Neg-Der50.p-2.Text-peq.my-3
-            .cajon
-              p La documentación en el proceso de implementación es fundamental, porque permite realizar modificaciones necesarias al proyecto sin grandes complicaciones, debido a que en estos documentos se registra todo lo que ocurre en este proceso desde las especificaciones hasta las actas de entrega, además de ser un instrumento para comunicar los detalles no tan obvios del sistema. 
-              p.mb-0 La documentación es el registro de todos los pasos necesarios para completar un proceso, en esta parte es muy importante el "cómo" se realizan; el desarrollo de <i>software</i> es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
+    
+    .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-4
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p La documentación en el proceso de implementación es fundamental, porque permite realizar modificaciones necesarias al proyecto sin grandes complicaciones, debido a que en estos documentos se registra todo lo que ocurre en este proceso desde las especificaciones hasta las actas de entrega, además de ser un instrumento para comunicar los detalles no tan obvios del sistema. 
+        p.mb-0 La documentación es el registro de todos los pasos necesarios para completar un proceso, en esta parte es muy importante el "cómo" se realizan; el desarrollo de <i>software</i> es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
+
+    
     .titulo-segundo.color-acento-botones
       #manTec.h2 1.1 Manuales Técnicos
-    .bloque-texto-b.color-acento-botones.p-2
-      .bloque-texto-b__texto
-        i.fas.fa-quote-left.text-primario
-        h2.mb-0 Según el Ministerio TIC (2018), en este documento está plasmada toda la información del proyecto de <em>software</em>, con una descripción bien detallada sobre las características técnicas y físicas de cada elemento; este manual va dirigido al administrador del sistema y otros ingenieros para que puedan hacer un respectivo mantenimiento en caso de que sea necesario; estos deben contener como mínimo los elementos relacionados a continuación:
-        i.fas.fa-quote-right.text-primario
+    
 
-    AcordionA.my-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-      .row.justify-content-start(titulo="Nombre del sistema")
-        .col-md-8.mb-4.mb-md-0
-          p Nombre completo del sistema de información.
-      
-        .col-md-2
-          figure
-            img(src='@/assets/template/tema1/nombreSis.svg', alt='Nombre del sistema')
 
-      div(titulo="Sigla")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Sigla o nombre corto bajo el cual se conoce el sistema de información. Si aplica.      
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/siglas.svg', alt='Siglas')
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        .bloque-texto-b.color-acento-botones.p-2.mb-4
+          .bloque-texto-b__texto
+            i.fas.fa-quote-left.text-primario
+            p.mb-0 Según el Ministerio TIC (2018), <br>
+            h2.mb-0 en este documento está plasmada toda la información del proyecto de <em>software</em>, con una descripción bien detallada sobre las características técnicas y físicas de cada elemento; este manual va dirigido al administrador del sistema y otros ingenieros para que puedan hacer un respectivo mantenimiento en caso de que sea necesario; estos deben contener como mínimo los elementos relacionados a continuación:
+            i.fas.fa-quote-right.text-primario
 
-      div(titulo="Descripción del sistema")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Descripción funcional del sistema y los servicios que presta.      
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/descripSis.svg', alt='Descripción del sistema')
-
-      div(titulo="Versión")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Versión actual y en producción del sistema de información.    
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/version.svg', alt='Versión')
-
-      div(titulo="Categoría")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Indique la categoría del sistema, de acuerdo con la clasificación del Marco de Referencia de Arquitectura Empresarial para la Gestión de TI en el Estado: 
-            ul.lista-ul.ms-4
-              li 
-                i.lista-ul__vineta
-                | Sistema misional.
-              li        
-                i.lista-ul__vineta
-                | Sistema de apoyo.
-              li        
-                i.lista-ul__vineta
-                | Portales digitales.
-              li        
-                i.lista-ul__vineta
-                | Sistema de direccionamiento estratégico
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/categoria.svg', alt='Categoria')
-
-      div(titulo="Fabricante")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Compañía que construyó el sistema de información o nombre del desarrollado.
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/fabricante.svg', alt='Fabricante')
-
-      div(titulo="Fecha de vencimiento del soporte")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Indique la fecha hasta la cual se tiene el contrato de mantenimiento o soporte.      
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/fechaVen.svg', alt='Fecha de vencimiento')
-
-      div(titulo="Sistema operativo")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Sistema(s) operativos(o) sobre los cuales funciona actualmente el sistema de información. 
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/sisOper.svg', alt='Sistema operativo')
-
-      div(titulo="Lenguaje de programación")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Lenguajes de programación y frameworks sobre los cuales fue construido el sistema de información. Ejemplos: Java 7, C#.Net framework 4.5, php 5.3, etc.  
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/lenguaje.svg', alt='Lenguaje de programación')
-
-      div(titulo="Plataforma de base de datos")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Ejemplo: Oracle, SQL server, Postgres, MySQL, entre otros.
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/basedatos.svg', alt='Base de datos')
-
-      div(titulo="Documentación técnica y funcional")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Indique la ubicación (URL) de la documentación detallada técnica y funcional del sistema (Arquitectura, manuales, diseños, etc.).    
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/docum.svg', alt='Documentación técnica y funcional')
-
-      div(titulo="Arquitectura tecnológica")
-        .row.justify-content-start
-          .col-md-8.mb-4.mb-md-0
-            p Stand Alone, <i>web</i>, cliente servidor, <em>app</em> móvil, <i>software</i> as a service (nube), etc.    
-          .col-md-2
-            figure
-              img(src='@/assets/template/tema1/arquitectura.svg', alt='Arquitectura tecnológica')
-            
+        AcordionA.my-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
+          .row.justify-content-center(titulo="Nombre del sistema")
+            .col-md-8.mb-4.mb-md-0
+              p Nombre completo del sistema de información.
+            .col-md-3
+              figure
+                img(src='@/assets/template/tema1/nombreSis.svg', alt='Nombre del sistema')
+          div(titulo="Sigla")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Sigla o nombre corto bajo el cual se conoce el sistema de información. Si aplica.      
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/siglas.svg', alt='Siglas')
+          div(titulo="Descripción del sistema")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Descripción funcional del sistema y los servicios que presta.      
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/descripSis.svg', alt='Descripción del sistema')
+          div(titulo="Versión")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Versión actual y en producción del sistema de información.    
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/version.svg', alt='Versión')
+          div(titulo="Categoría")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Indique la categoría del sistema, de acuerdo con la clasificación del Marco de Referencia de Arquitectura Empresarial para la Gestión de TI en el Estado: 
+                ul.lista-ul.ms-4
+                  li 
+                    i.lista-ul__vineta
+                    | Sistema misional.
+                  li        
+                    i.lista-ul__vineta
+                    | Sistema de apoyo.
+                  li        
+                    i.lista-ul__vineta
+                    | Portales digitales.
+                  li        
+                    i.lista-ul__vineta
+                    | Sistema de direccionamiento estratégico
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/categoria.svg', alt='Categoria')
+          div(titulo="Fabricante")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Compañía que construyó el sistema de información o nombre del desarrollado.
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/fabricante.svg', alt='Fabricante')
+          div(titulo="Fecha de vencimiento del soporte")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Indique la fecha hasta la cual se tiene el contrato de mantenimiento o soporte.      
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/fechaVen.svg', alt='Fecha de vencimiento')
+          div(titulo="Sistema operativo")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Sistema(s) operativos(o) sobre los cuales funciona actualmente el sistema de información. 
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/sisOper.svg', alt='Sistema operativo')
+          div(titulo="Lenguaje de programación")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Lenguajes de programación y frameworks sobre los cuales fue construido el sistema de información. Ejemplos: Java 7, C#.Net framework 4.5, php 5.3, etc.  
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/lenguaje.svg', alt='Lenguaje de programación')
+          div(titulo="Plataforma de base de datos")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Ejemplo: Oracle, SQL server, Postgres, MySQL, entre otros.
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/basedatos.svg', alt='Base de datos')
+          div(titulo="Documentación técnica y funcional")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Indique la ubicación (URL) de la documentación detallada técnica y funcional del sistema (Arquitectura, manuales, diseños, etc.).    
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/docum.svg', alt='Documentación técnica y funcional')
+          div(titulo="Arquitectura tecnológica")
+            .row.justify-content-center
+              .col-md-8.mb-4.mb-md-0
+                p Stand Alone, <i>web</i>, cliente servidor, <em>app</em> móvil, <i>software</i> as a service (nube), etc.    
+              .col-md-3
+                figure
+                  img(src='@/assets/template/tema1/arquitectura.svg', alt='Arquitectura tecnológica')
+                
 
     .titulo-segundo.color-acento-botones.mb-4.mt-4
       #manUser.h2 1.2 Manuales de usuario
     
-    .row.mt-5.mb-5
+    .row.align-items-center.mb-5
       .col-lg-5.col-md-12.col-sm-12
         img(src='@/assets/curso/tema1/imagen2.jpg')
       .col-lg-7.col-md-12.col-sm-12
@@ -162,43 +158,39 @@
           .col-12
             p Un manual de usuario se debe adecuar a la empresa que solicita el producto, los usuarios lo leen para encontrar consejos prácticos sobre cómo utilizar la solución de <i>software</i> o superar un problema cuando estos ocurren.
     p.mb-4  Para realizar un manual de usuario hay que tener en cuenta algunos consejos:
-  .container.bgPrimarioSuave.p-0.mb-0.tarjeta
-    SlyderF.p-5(columnas="col-lg-6 col-xl-4")
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/tabla.svg' alt='AvatarTop')
-        p.text-center Planificar la información que se desea incluir, enfocarse en que se está ayudando al usuario de manera objetiva, también se debe tener en cuenta que otros recursos se pone a disposición del usuario y quienes son los responsables de elaborar el documento y de su aprobación.
-
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/hojas2.svg' alt='AvatarTop')
-        p.text-center Seleccionar el formato para crear el manual puede ser, .doc, .txt  ,html, .pdf, .csv, .xls etc;  por lo general la mayoría de manuales se imprimen pero es recomendable tener una versión electrónica en el sitio <i>web</i>, si no lo tiene, debe pensar en donde puede alojar esta información ya que en la actualidad la gran mayoría de personas acceden a la información desde su dispositivo móvil o <em>Smart Phone</em>. 
-
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/pc2.svg' alt='AvatarTop')
-        p.text-center Tener en cuenta a los lectores, el tipo de población a la cual está dirigida la solución informática. 
-
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/pc.svg' alt='AvatarTop')
-        p.text-center Crear el manual de usuario, se deben escribir las instrucciones de forma clara y sencilla evitando palabras muy técnicas, mostrando todo lo que el usuario necesita saber, el diseño debe ser amigable y debe tener ayudas visuales.
-
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/libro.svg' alt='AvatarTop')
-        p.text-center Probar el manual, con personas que no conozcan el producto, con estas pruebas se puede enriquecer el manual, entrevistar a todos los desarrolladores, ellos conocen el producto mejor que nadie y pueden señalar las cosas que puede haber pasado por alto.
-
-      .tarjeta.bgBlanco.p-4
-        .row.justify-content-center.mb-3
-          .col-5
-            img(src='@/assets/componentes/tema1/hojas.svg' alt='AvatarTop')
-        p.text-center Mantener la documentación actualizada: cuando hagan modificaciones en el producto, es necesario tener todo actualizado;  la documentación electrónica tiene una gran ventaja sobre la impresa, incluso los documentos impresión pueden actualizarse para descargarlos del sitio <i>web</i> de la empresa. 
+    .container.BG01.p-0.mb-0.tarjeta
+      SlyderF.p-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta.bgBlanco.p-4
+          .row.justify-content-center.mb-4
+            .col-5
+              img(src='@/assets/componentes/tema1/tabla.svg' alt='AvatarTop')
+          p.text-center Planificar la información que se desea incluir, enfocarse en que se está ayudando al usuario de manera objetiva, también se debe tener en cuenta que otros recursos se pone a disposición del usuario y quienes son los responsables de elaborar el documento y de su aprobación.
+        .tarjeta.bgBlanco.p-4
+          .row.justify-content-center.mb-4
+            .col-5
+              img(src='@/assets/componentes/tema1/hojas2.svg' alt='AvatarTop')
+          p.text-center Seleccionar el formato para crear el manual puede ser, .doc, .txt  ,html, .pdf, .csv, .xls etc;  por lo general la mayoría de manuales se imprimen pero es recomendable tener una versión electrónica en el sitio <i>web</i>, si no lo tiene, debe pensar en donde puede alojar esta información ya que en la actualidad la gran mayoría de personas acceden a la información desde su dispositivo móvil o <em>Smart Phone</em>. 
+        .tarjeta.bgBlanco.p-4
+          .row.justify-content-center.mb-4
+            .col-5
+              img(src='@/assets/componentes/tema1/pc2.svg' alt='AvatarTop')
+          p.text-center Tener en cuenta a los lectores, el tipo de población a la cual está dirigida la solución informática. 
+        .tarjeta.bgBlanco.p-4
+          .row.justify-content-center.mb-4
+            .col-5
+              img(src='@/assets/componentes/tema1/pc.svg' alt='AvatarTop')
+          p.text-center Crear el manual de usuario, se deben escribir las instrucciones de forma clara y sencilla evitando palabras muy técnicas, mostrando todo lo que el usuario necesita saber, el diseño debe ser amigable y debe tener ayudas visuales.
+        .tarjeta.bgBlanco.p-4
+          .row.justify-content-center.mb-4
+            .col-5
+              img(src='@/assets/componentes/tema1/libro.svg' alt='AvatarTop')
+          p.text-center Probar el manual, con personas que no conozcan el producto, con estas pruebas se puede enriquecer el manual, entrevistar a todos los desarrolladores, ellos conocen el producto mejor que nadie y pueden señalar las cosas que puede haber pasado por alto.
+        .tarjeta.bgBlanco.p-4
+          .row.justify-content-center.mb-4
+            .col-5
+              img(src='@/assets/componentes/tema1/hojas.svg' alt='AvatarTop')
+          p.text-center Mantener la documentación actualizada: cuando hagan modificaciones en el producto, es necesario tener todo actualizado;  la documentación electrónica tiene una gran ventaja sobre la impresa, incluso los documentos impresión pueden actualizarse para descargarlos del sitio <i>web</i> de la empresa. 
+    
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-4.mt-4 Recuerde, su contenido solo es excelente si es preciso, asegúrese que lo que ofrece a sus clientes realmente les ayude a utilizar su producto. Pero por lo general debe tener la siguiente estructura:
     .row.justify-content-center.mb-4

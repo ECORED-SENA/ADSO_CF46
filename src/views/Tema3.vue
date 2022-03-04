@@ -8,7 +8,7 @@
         span 3
       h1 Pruebas y actas de entrega
 
-    .row.mt-4.mb-4
+    .row.align-items-center.mb-4
       .col-md-5
         img(src='@/assets/curso/tema3/tresPC.jpg')
       .col-md-7
