@@ -10,14 +10,16 @@
     
     .row.bgFondoUnosyCerosAzul.justify-content-center.p-5
       .col-md-10
-        img(src='@/assets/curso/tema2/reunionVirtual.jpg')
+        figure(data-aos="flip-up")
+          img(src='@/assets/curso/tema2/reunionVirtual.jpg')
         p.mb-4 La tecnología cambia a pasos agigantados, esto se puede ver reflejado en la creación y nuevas versiones de programas, por lo cual la clave es saber cómo capacitar a los empleados sobre los nuevos sistemas o tecnología que se implementan, y hay que hacerlo de manera efectiva y eficaz para lograr una correcta transferencia del conocimiento.
 
-    .titulo-segundo.color-acento-botones.mb-4
+    .titulo-segundo.color-acento-botones.mb-4(data-aos="fade-right")
       #t_2_1_Tec.h2 2.1 Técnicas
+
     p.mb-4 De acuerdo a Edgpoint learning (2020), existen unos puntos específicos que hay que tener en cuenta:  
 
-    .BG01.p-4.mb-4
+    .BG01.p-4.mb-5(data-aos="fade-down")
       SlyderA
         .row.bgFondoPantalla.p-5.m-5
           .col-md-12.mb-4.mb-md-0.p-5
@@ -66,8 +68,9 @@
                 figure
                   img(src='@/assets/template/tema2/presentacion.jpg', alt='Elegir un formato adecuado para la capacitación')
   
-    .titulo-segundo.color-acento-botones.mb-4
+    .titulo-segundo.color-acento-botones.mb-4(data-aos="fade-right")
       #t_2_2_Cap.h2 2.2 Plan de capacitación
+    
     p.mb-4 De acuerdo a Edgpoint learning (2020):
 
     .row.mb-4
@@ -77,70 +80,70 @@
             .row
              .col-1
                i.fas.fa-quote-left.Text-grande.text-primario
-            .row
+            .row(data-aos="fade-right")
               .col-1
               .col-10
                 p.ms-3.mb-0 Hay que establecer plazos y métodos de implementación, estos deben ser claros y realistas para no jugar con el tiempo de los usuarios ni la productividad de la empresa.
-            .row
+            .row(data-aos="fade-right")
               .col-11
               .col-1
                 p.pe-2.mb-0.i.fas.fa-quote-right.Text-grande.text-primario 
         p.my-4 A continuación, algunos tips de aporte en este ítem.        
-      .col-md-5
+      .col-md-5(data-aos="fade-left")
          img(src='@/assets/curso/tema2/servidor.png')
 
     PasosA.color-acento-contenido.mb-5(tipo="n")
-      .row.align-items-center
+      .row.align-items-center(data-aos="fade-down")
         .col-md-4.col-sm-6
           p.mb-0 Hay que presentar el cronograma o plan de capacitación mínimo con un mes de antelación.
         .col-md-2.col-sm-4
           figure
             img(src='@/assets/template/tema2/tickets.svg')
-      .row.align-items-center
+      .row.align-items-center(data-aos="fade-down")
         .col-md-6.col-sm-2
         .col-md-2.col-sm-4
           figure
             img(src='@/assets/template/tema2/flechas.svg')
         .col-md-4.col-sm-6
           p.mb-0 Hay que estar pendientes al cronograma de la empresa a capacitar por si surgen cambios poder ajustarse a estos. 
-      .row.align-items-center
+      .row.align-items-center(data-aos="fade-down")
         .col-md-4.col-sm-6
           p.mb-0 Hay que  ser puntuales y  respetusos por el tiempo de los usuarios y el de la empresa, esto es fundamental y sirve como carta de presentación. 
         .col-md-2.col-sm-4
           figure
             img(src='@/assets/template/tema2/calendarioReloj.svg')
-      .row.align-items-center
+      .row.align-items-center(data-aos="fade-down")
         .col-md-6.col-sm-2
         .col-md-2.col-sm-4
           figure
             img(src='@/assets/template/tema2/pareja.svg')
         .col-md-4.col-sm-6
           p.mb-0 Es importante la correcta presentación personal al momento de impartir la capacitación.
-      .row.align-items-center
+      .row.align-items-center(data-aos="fade-down")
         .col-md-4.col-sm-6
           p.mb-0 Se puede enviar información por correo electrónico o <em>links</em> de descarga para que los usuarios lo revisen con antelación y se pueda avanzar en la etapa de preguntas.
         .col-md-2.col-sm-4
           figure
             img(src='@/assets/template/tema2/sobre.svg')
-      .row.align-items-center
+      .row.align-items-center(data-aos="fade-down")
         .col-md-6.col-sm-2
         .col-md-2.col-sm-4
           figure
             img(src='@/assets/template/tema2/pregunta.svg')
         .col-md-4.col-sm-6
           p.mb-0 Dejar un espacio para la etapa de preguntas relacionadas con el tema de capacitación.
-      .row.align-items-center
+      .row.align-items-center(data-aos="fade-down")
         .col-md-4.col-sm-6
           p.mb-0 Acordar una fecha extra para mirar posibles problemas en el manejo de la solución de <i>software</i>.
         .col-md-2.col-sm-4
           figure
             img(src='@/assets/template/tema2/calendario.svg')    
 
-    .titulo-segundo.color-acento-botones.mb-4
+    .titulo-segundo.color-acento-botones.mb-4(data-aos="fade-right")
       #t_2_3_Video.h2 2.3 Videotutoriales
 
     .row.bgFondoUnosyCerosAzul.justify-content-center.mb-4
-      .col-md-10
+      .col-md-10(data-aos="fade-down")
         img.cajon(src='@/assets/curso/tema2/hombreLeyendo.png')
     
     .row.justify-content-center.mb-4

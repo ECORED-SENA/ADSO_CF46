@@ -12,7 +12,7 @@
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img01.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p La documentación en el proceso de implementación es fundamental, porque permite realizar modificaciones necesarias al proyecto sin grandes complicaciones, debido a que en estos documentos se registra todo lo que ocurre en este proceso desde las especificaciones hasta las actas de entrega, además de ser un instrumento para comunicar los detalles no tan obvios del sistema. 
         p.mb-0 La documentación es el registro de todos los pasos necesarios para completar un proceso, en esta parte es muy importante el "cómo" se realizan; el desarrollo de <i>software</i> es esencialmente un grupo de procesos interrelacionados, por lo cual es importante llevar una correcta documentación de los procesos en los formatos establecidos.
 
@@ -20,11 +20,9 @@
     .titulo-segundo.color-acento-botones
       #manTec.h2 1.1 Manuales Técnicos
     
-
-
     .row.justify-content-center.mb-4
       .col-lg-10
-        .bloque-texto-b.color-acento-botones.p-2.mb-4
+        .bloque-texto-b.color-acento-botones.p-2.mb-4(data-aos="fade-down")
           .bloque-texto-b__texto
             i.fas.fa-quote-left.text-primario
             p.mb-0 Según el Ministerio TIC (2018), <br>
@@ -130,17 +128,17 @@
                   img(src='@/assets/template/tema1/arquitectura.svg', alt='Arquitectura tecnológica')
                 
 
-    .titulo-segundo.color-acento-botones.mb-4.mt-4
+    .titulo-segundo.color-acento-botones.mb-4.mt-4(data-aos="fade-right")
       #manUser.h2 1.2 Manuales de usuario
     
     .row.align-items-center.mb-5
-      .col-lg-5.col-md-12.col-sm-12
+      .col-lg-5.col-md-12.col-sm-12(data-aos="fade-right")
         img(src='@/assets/curso/tema1/imagen2.jpg')
       .col-lg-7.col-md-12.col-sm-12
-        .row.mb-2.bgPrimarioSuave
+        .row.mb-2.bgPrimarioSuave(data-aos="fade-down")
           .col-12.p-4
             p.mb-0 El manual de usuario es el documento que facilita a las personas utilizar un <i>software</i> de manera sencilla y clara, además de brindar acceso a todas las funcionalidades que este posee. La documentación técnica es muy importante en el ciclo de vida de los sistemas de información, además de ser un entregable obligatorio de parte de los programadores. 
-        .row.mb-2.bgRosa
+        .row.mb-2.bgRosa(data-aos="fade-left")
           .col-12
             .row
              .col-1
@@ -154,11 +152,13 @@
               .col-11
               .col-1
                 p.i.fas.fa-quote-right.Text-grande.text-primario
-        .row
+        .row(data-aos="fade-up")
           .col-12
             p Un manual de usuario se debe adecuar a la empresa que solicita el producto, los usuarios lo leen para encontrar consejos prácticos sobre cómo utilizar la solución de <i>software</i> o superar un problema cuando estos ocurren.
+    
     p.mb-4  Para realizar un manual de usuario hay que tener en cuenta algunos consejos:
-    .container.BG01.p-0.mb-0.tarjeta
+    
+    .container.BG01.p-0.mb-0.tarjeta(data-aos="flip-up")
       SlyderF.p-5(columnas="col-lg-6 col-xl-4")
         .tarjeta.bgBlanco.p-4
           .row.justify-content-center.mb-4
@@ -222,14 +222,16 @@
               li 
                 i.fas.fa-check.text-secundario
                 | Contactos de los desarrolladores. 
-          .col-lg-6.col-md-4.p-3.mt-4
+          .col-lg-6.col-md-4.p-3.mt-4(data-aos="fade-left")
             img(src="@/assets/curso/tema1/figura1.png")
-    .titulo-segundo.color-acento-botones.mb-4.mt-4
+    
+    .titulo-segundo.color-acento-botones.mb-4.mt-4(data-aos="fade-right")
       #manInt.h2 1.3 Manuales de instalación
+    
     .row.mb-4
-      .col-lg-5.col-md-12
+      .col-lg-5.col-md-12(data-aos="fade-right")
         img(src="@/assets/curso/tema1/imagen3.jpg")
-      .col-lg-7.col-md-12
+      .col-lg-7.col-md-12(data-aos="fade-left")
         .row.mb-2.bgRosa
           .col-12
             .row
@@ -245,9 +247,11 @@
               .col-1
                 p.i.fas.fa-quote-right.Text-grande.text-primario.mb-4       
         p.mb-4.mt-4 Estos son los componentes principales de una guía de instalación de <i>software</i>:
-    .row
+    
+    .row(data-aos="fade-right")
       .col-4.mb-4.mt-4.bgFondoTitulo
         p.text-white.p-3.mb-0.text-bold Requisitos del sistema 
+    
     p.mb-4 Aquí se debe detallar qué tipo de hardware o <em>firmware</em> se necesita para instalar este <i>software</i>, se debe especificar si funciona en un sistema operativo Mac OS X o Windows 10, según Microsoft (2021) los requisitos mínimos para instalar el sistema operativo Windows 11, son los siguientes:
 
 
@@ -305,7 +309,9 @@
         .row.justify-content-center
           .col-md-10
             img(src="@/assets/curso/tema1/TPM.jpg")
-    img(src="@/assets/curso/tema1/manos.jpg")
+    
+    figure(data-aos="flip-up")
+      img(src="@/assets/curso/tema1/manos.jpg")
 
     TabsC.color-acento-botones
       .py-3.py-md-4(titulo="Descripción general de las características del sistema o del producto")

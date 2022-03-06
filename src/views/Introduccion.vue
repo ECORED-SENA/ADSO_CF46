@@ -10,7 +10,7 @@
       h1 Introducción
     p.mb-5 La implementación de <i>software</i> es la puesta en marcha o ejecución de una solución de <i>software</i>, para satisfacer las necesidades de una empresa. A continuación, se puede consultar la introducción a este componente que tiene como propósito identificar los principales elementos de este proceso.     
     figure.mb-5
-      .video
+      .video(data-aos="flip-up")
         iframe(width="560" height="315" src="https://www.youtube.com/embed/ASpfQKVgzKU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 </template>

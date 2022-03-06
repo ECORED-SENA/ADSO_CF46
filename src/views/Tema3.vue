@@ -9,12 +9,12 @@
       h1 Pruebas y actas de entrega
 
     .row.align-items-center.mb-4
-      .col-md-5
+      .col-md-5(data-aos="fade-right")
         img(src='@/assets/curso/tema3/tresPC.jpg')
       .col-md-7
-        p.bgPrimarioSuave.p-3 Al momento de realizar la entrega de la solución informática esta debió ser probada de manera interna por los desarrolladores para examinar la correcta funcionalidad de todos sus procesos, permitiendo conocer la calidad del mismo, así como los posibles fallos que se puedan presentar a corto, medio o largo plazo, con el fin de lograr predecir su comportamiento durante la implantación, su grado de manejabilidad y lo amigable que pueda ser su interfaz gráfica.
-        p.p-3 En el caso de los usuarios, las pruebas van dadas por las necesidades y el contexto que representa a cada uno de los clientes, en otras palabras, la misma prueba no puede servir para todos los escenarios, porque puede ser que una prueba para un <i>software</i> específico sea la adecuada, pero en otro puede llegar a ser perjudicial. En el caso puntual de los clientes se debe hacer una prueba de funcionamiento y rendimiento en el sitio, bajo las condiciones y entorno de la empresa, con las funciones y  datos reales, esta prueba debe ser ejecutada y analizada por las dos partes, se puede hacer  en una sola jornada o si el cliente lo desea se puede hacer dos días o hasta en una semana, solo así,  el cliente sentirá la seguridad de firmar el acta de entrega a satisfacción.
-        .row.py-2.bgRosa
+        p.bgPrimarioSuave.p-3(data-aos="fade-down") Al momento de realizar la entrega de la solución informática esta debió ser probada de manera interna por los desarrolladores para examinar la correcta funcionalidad de todos sus procesos, permitiendo conocer la calidad del mismo, así como los posibles fallos que se puedan presentar a corto, medio o largo plazo, con el fin de lograr predecir su comportamiento durante la implantación, su grado de manejabilidad y lo amigable que pueda ser su interfaz gráfica.
+        p.p-3(data-aos="fade-left") En el caso de los usuarios, las pruebas van dadas por las necesidades y el contexto que representa a cada uno de los clientes, en otras palabras, la misma prueba no puede servir para todos los escenarios, porque puede ser que una prueba para un <i>software</i> específico sea la adecuada, pero en otro puede llegar a ser perjudicial. En el caso puntual de los clientes se debe hacer una prueba de funcionamiento y rendimiento en el sitio, bajo las condiciones y entorno de la empresa, con las funciones y  datos reales, esta prueba debe ser ejecutada y analizada por las dos partes, se puede hacer  en una sola jornada o si el cliente lo desea se puede hacer dos días o hasta en una semana, solo así,  el cliente sentirá la seguridad de firmar el acta de entrega a satisfacción.
+        .row.py-2.bgRosa(data-aos="fade-up")
           .col-md-12
             .row
               .col-1
@@ -28,6 +28,7 @@
               .col-11
               .col-1
                 p.mb-0.i.fas.fa-quote-right.Text-grande.text-primario 
+    
     .row.justify-content-center
       .col-md-10.p-4
         .cajon.color-primario.p-4.mb-4
@@ -44,7 +45,7 @@
                 li
                   i.fas.fa-check.text-secundario
                   | En las siguientes páginas va la descripción del producto a entregar. 
-            .col-md-3
+            .col-md-3(data-aos="fade-left")
               img(src='@/assets/curso/tema3/ajustes.png')
     separador
 </template>

@@ -3,7 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    img(src='@/assets/curso/tema4/flujograma.png') 
+    figure(data-aos="flip-up")
+      img(src='@/assets/curso/tema4/flujograma.png') 
 
 </template>
 
