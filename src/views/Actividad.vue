@@ -10,8 +10,8 @@
             img(src="@/assets/template/emparejamiento.svg")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Conceptos básicos de Actividades de documentación y entrega de software en procesos de implantación
-        p.mb-4 Afianzar algunos de los conceptos de Actividades de documentación y entrega de software en procesos de implantación
+          h2 Conceptos básicos de Actividades de documentación y entrega de #[i software] en procesos de implantación
+        p.mb-4 Afianzar algunos de los conceptos de Actividades de documentación y entrega de #[i software] en procesos de implantación
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
@@ -28,8 +28,8 @@
             img(src="@/assets/template/falso-verdadero.svg")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Conocimientos de validación de Actividades de documentación y entrega de software en procesos de implantación
-        p.mb-4 Afianzar algunos de los conceptos de Actividades de documentación y entrega de software en procesos de implantación
+          h2 Conocimientos de validación de Actividades de documentación y entrega de #[i software] en procesos de implantación
+        p.mb-4 Afianzar algunos de los conceptos de Actividades de documentación y entrega de #[i software] en procesos de implantación
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

@@ -92,7 +92,7 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
       {
@@ -132,7 +132,7 @@ export default {
     {
       referencia:
         'Bichachi, D. S. (2004). El uso de las listas de chequeo (CHEK-LIST) como herramienta para controlar la calidad de las leyes.',
-      link: 'http://www.claudiabernazza.com.ar/htm/pdf/check_list',
+      link: 'http://www.claudiabernazza.com.ar/htm/pdf/check_list.pdf',
     },
     {
       referencia:
@@ -167,7 +167,7 @@ export default {
         'se conoce como <em>firmware</em> al conjunto de instrucciones de un programa informático que se encuentra registrado en una memoria ROM, flash o similar. Estas instrucciones fijan la lógica primaria que ejerce el control de los circuitos de alguna clase de artefacto.',
     },
     {
-      termino: 'Ram',
+      termino: 'RAM',
       significado:
         'es la memoria de corto plazo del computador. Su función principal es recordar la información que tienes en cada una de las aplicaciones abiertas en el computador, mientras este se encuentre encendido. Cuanta más memoria RAM tenga tu computador, más cosas podrás hacer al mismo tiempo',
     },
@@ -194,7 +194,7 @@ export default {
         'Edgepoint learning. (2020). How To Train Employees On a New System Or Technology: 5 Tips.',
       tipo: 'Artículo',
       link:
-        'https://www.technicalcommunicationcenter.com/online-classes/how-to-write-a-software-installation-guide/',
+        'https://www.edgepointlearning.com/blog/how-to-train-employees-on-new-system/',
     },
   ],
   creditos: {

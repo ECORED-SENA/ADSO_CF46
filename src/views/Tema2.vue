@@ -17,7 +17,7 @@
     .titulo-segundo.color-acento-botones.mb-4(data-aos="fade-right")
       #t_2_1_Tec.h2 2.1 Técnicas
 
-    p.mb-4 De acuerdo a Edgpoint learning (2020), existen unos puntos específicos que hay que tener en cuenta:  
+    p.mb-4 De acuerdo a Edgepoint learning (2020), existen unos puntos específicos que hay que tener en cuenta:  
 
     .BG01.p-4.mb-5(data-aos="fade-down")
       SlyderA
@@ -36,7 +36,7 @@
             h3.mb-4.ms-4 Los instructores deben conocer muy bien el <i>software</i>
             .row
               .col-md-6.p-2
-                p.p-2.ms-4 Si la capacitación es de manera virtual o con video tutoriales asegúrese de contratar personas expertas en la creación de estos recursos ya que la presentación y la calidad es muy importante. 
+                p.p-2.ms-4 Si la capacitación es de manera virtual o con videotutoriales asegúrese de contratar personas expertas en la creación de estos recursos ya que la presentación y la calidad es muy importante. 
               .col-md-6.p-2
                 figure
                   img(src='@/assets/template/tema2/PC.jpg')
@@ -54,7 +54,7 @@
             h3.mb-4.ms-4 Utilizar incentivos en la capacitación
             .row
               .col-md-6.p-2
-                p.p-2.ms-4 Los incentivos motivan y comprometen a los participantes creando un ambiente cálido en el proceso de capacitación, la clave es conocer bien a los empleados por intermedio de los jefes, para algunos es suficiente con un reconocimiento verbal por su dedicación, para otros puede ser un buen refrigerio o golosinas, también se puede hablar con los dueños de la empresa para que los usuarios puedan ser recompensados con hora libres.
+                p.p-2.ms-4 Los incentivos motivan y comprometen a los participantes creando un ambiente cálido en el proceso de capacitación, la clave es conocer bien a los empleados por intermedio de los jefes, para algunos es suficiente con un reconocimiento verbal por su dedicación, para otros puede ser un buen refrigerio o golosinas, también se puede hablar con los dueños de la empresa para que los usuarios puedan ser recompensados con horas libres.
               .col-md-6.p-2
                 figure
                   img(src='@/assets/template/tema2/estudiantes.jpg', alt='Utilizar incentivos en la capacitación')
@@ -71,7 +71,7 @@
     .titulo-segundo.color-acento-botones.mb-4(data-aos="fade-right")
       #t_2_2_Cap.h2 2.2 Plan de capacitación
     
-    p.mb-4 De acuerdo a Edgpoint learning (2020):
+    p.mb-4 De acuerdo a Edgepoint learning (2020):
 
     .row.mb-4
       .col-md-7
@@ -108,7 +108,7 @@
           p.mb-0 Hay que estar pendientes al cronograma de la empresa a capacitar por si surgen cambios poder ajustarse a estos. 
       .row.align-items-center(data-aos="fade-down")
         .col-md-4.col-sm-6
-          p.mb-0 Hay que  ser puntuales y  respetusos por el tiempo de los usuarios y el de la empresa, esto es fundamental y sirve como carta de presentación. 
+          p.mb-0 Hay que  ser puntuales y  respetuosos por el tiempo de los usuarios y el de la empresa, esto es fundamental y sirve como carta de presentación. 
         .col-md-2.col-sm-4
           figure
             img(src='@/assets/template/tema2/calendarioReloj.svg')

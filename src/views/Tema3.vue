@@ -32,7 +32,7 @@
     .row.justify-content-center
       .col-md-10.p-4
         .cajon.color-primario.p-4.mb-4
-          p Por lo general los modelos de acta de entrega pueden variar según las empresas productoras de <i>software</i>, pero por lo general llevan la siguiente información:
+          p Por lo general los modelos de acta de entrega pueden variar según las empresas productoras de <i>software</i>, pero generalmente llevan la siguiente información:
           .row
             .col-md-9.p-4
               ul.lista-ul.ms-3
@@ -41,7 +41,7 @@
                   p.mb-0 Una portada con los logos e información de la empresa o desarrollador de la solución de <i>software</i>.
                 li
                   i.fas.fa-check.text-secundario
-                  | En la página siguiente la fecha y a quien está dirigido el producto “el nombre del cliente, dueño o presidente de la empresa”, en el cuerpo de este apartado de debe hacer un respetuoso saludo y cuál es el motivo de este documento.
+                  | En la página siguiente la fecha y a quien está dirigido el producto “el nombre del cliente, dueño o presidente de la empresa”, en el cuerpo de este apartado se debe hacer un respetuoso saludo y cuál es el motivo de este documento.
                 li
                   i.fas.fa-check.text-secundario
                   | En las siguientes páginas va la descripción del producto a entregar. 

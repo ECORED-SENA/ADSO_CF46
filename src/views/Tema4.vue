@@ -21,7 +21,7 @@
               .col-1
               .col-10
                 p De acuerdo a Ruiz & Polo (2007)
-                p.my-2.text-bold todas las soluciones de <i>software</i> muestran mensajes para dar retroalimentación sobre el estado del sistema y para indicar si hay problemas, por lo general los mensajes de error son visuales “mensajes en la pantalla” o sonidos de alerta, en este apartado hay que proporcionar de forma detallada  el tipo de error que se presenta e indicar una solución muy puntal a este problema, se debe tener en cuenta que  estos tipos de mensajes también se pueden incluir en la guía de administrador de usuario, aunque   es mucho mejor repetir la información importante en varios lugares  ya que normalmente no se tiene control sobre la forma en que  el usuario  utiliza los manuales técnicos.
+                p.my-2.text-bold Todas las soluciones de <i>software</i> muestran mensajes para dar retroalimentación sobre el estado del sistema y para indicar si hay problemas, por lo general los mensajes de error son visuales “mensajes en la pantalla” o sonidos de alerta, en este apartado hay que proporcionar de forma detallada  el tipo de error que se presenta e indicar una solución muy puntal a este problema, se debe tener en cuenta que  estos tipos de mensajes también se pueden incluir en la guía de administrador de usuario, aunque   es mucho mejor repetir la información importante en varios lugares  ya que normalmente no se tiene control sobre la forma en que  el usuario  utiliza los manuales técnicos.
             .row
               .col-11
               .col-1
@@ -36,7 +36,7 @@
       .col-md-3(data-aos="fade-right")
         img(src='@/assets/curso/tema4/mujer.svg')
       .col-md-9
-        p.p-4 <em>call center</em>: es un centro de trabajo en el cual se realizan atención al usuario por medio de llamadas telefónicas, se gestionan datos, contactos y soluciones a problemas frecuentes de <i>software</i>. Hoy en día, <em>call centers</em> y <em>contact centers</em> son una de las opciones más agiles de las grandes empresas al momento de dar soporte a los productos; por lo general este tipo de mantenimiento se lo hace en compañía de un programa o aplicación de escritorio remoto, con los cuales podemos dar asistencia técnica remota como si el programador estuviera en el lugar en el que lo necesitan Algunos de estos programas son: 
+        p.p-4 <em>Call center</em>: es un centro de trabajo en el cual se realizan atención al usuario por medio de llamadas telefónicas, se gestionan datos, contactos y soluciones a problemas frecuentes de <i>software</i>. Hoy en día, <em>call centers</em> y <em>contact centers</em> son una de las opciones más ágiles de las grandes empresas al momento de dar soporte a los productos; por lo general este tipo de mantenimiento se lo hace en compañía de un programa o aplicación de escritorio remoto, con los cuales podemos dar asistencia técnica remota como si el programador estuviera en el lugar en el que lo necesitan. Algunos de estos programas son: 
     
     figure.mb-4(data-aos="fade-down")
       img(src='@/assets/curso/tema4/programas.png')

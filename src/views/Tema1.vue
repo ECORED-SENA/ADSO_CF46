@@ -164,12 +164,12 @@
           .row.justify-content-center.mb-4
             .col-5
               img(src='@/assets/componentes/tema1/tabla.svg' alt='AvatarTop')
-          p.text-center Planificar la información que se desea incluir, enfocarse en que se está ayudando al usuario de manera objetiva, también se debe tener en cuenta que otros recursos se pone a disposición del usuario y quienes son los responsables de elaborar el documento y de su aprobación.
+          p.text-center Planificar la información que se desea incluir, enfocarse en que se está ayudando al usuario de manera objetiva, también se debe tener en cuenta qué otros recursos se pone a disposición del usuario y quiénes son los responsables de elaborar el documento y de su aprobación.
         .tarjeta.bgBlanco.p-4
           .row.justify-content-center.mb-4
             .col-5
               img(src='@/assets/componentes/tema1/hojas2.svg' alt='AvatarTop')
-          p.text-center Seleccionar el formato para crear el manual puede ser, .doc, .txt  ,html, .pdf, .csv, .xls etc;  por lo general la mayoría de manuales se imprimen pero es recomendable tener una versión electrónica en el sitio <i>web</i>, si no lo tiene, debe pensar en donde puede alojar esta información ya que en la actualidad la gran mayoría de personas acceden a la información desde su dispositivo móvil o <em>Smart Phone</em>. 
+          p.text-center Seleccionar el formato para crear el manual puede ser, .doc, .txt, .html, .pdf, .csv, .xls, etc.;  por lo general la mayoría de manuales se imprimen pero es recomendable tener una versión electrónica en el sitio <i>web</i>, si no lo tiene, debe pensar en dónde puede alojar esta información ya que en la actualidad la gran mayoría de personas acceden a la información desde su dispositivo móvil o <em>Smart Phone</em>. 
         .tarjeta.bgBlanco.p-4
           .row.justify-content-center.mb-4
             .col-5
@@ -304,7 +304,7 @@
             img(src="@/assets/curso/tema1/almacen2.jpg")
       .tarjeta.bgRosa.p-4(titulo="TPM")
         h4.mt-4 TPM
-        p Módulo de plataforma segura (TPM) versión 2.0. Consulta aquí para ver instrucciones sobre cómo se puede habilitar tu PC para que cumpla este requisito.  p
+        p Módulo de plataforma segura (TPM) versión 2.0. Consulta aquí para ver instrucciones sobre cómo se puede habilitar tu PC para que cumpla este requisito.
         p Windows 11 Home requiere conexión a Internet y una cuenta de Microsoft. Para todas las ediciones de Windows 11, se requiere acceso a Internet para poder realizar actualizaciones, así como para descargar y aprovechar algunas de las características. Para algunas características se requiere una cuenta de Microsoft.
         .row.justify-content-center
           .col-md-10
@@ -330,7 +330,7 @@
                 .row.justify.content-center
                   .col-10
                     p.ms-5 - De acuerdo a UGUR (2009)
-                    p.mt-2.mb-2.ms-5 siempre son importantes los datos de contacto del desarrollador o de la empresa que creó la solución informática o con el departamento de atención al cliente, dado el caso que se presente alguna duda relacionada con el producto, garantía, registro, etc.
+                    p.mt-2.mb-2.ms-5 Siempre son importantes los datos de contacto del desarrollador o de la empresa que creó la solución informática o con el departamento de atención al cliente, dado el caso que se presente alguna duda relacionada con el producto, garantía, registro, etc.
                 .row
                   .col-11
                   .col-1
