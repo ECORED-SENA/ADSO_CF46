@@ -132,7 +132,7 @@ export default {
     {
       referencia:
         'Bichachi, D. S. (2004). El uso de las listas de chequeo (CHEK-LIST) como herramienta para controlar la calidad de las leyes.',
-      link: 'http://www.claudiabernazza.com.ar/htm/pdf/check_list.pdf',
+      link: 'https://www.claudiabernazza.com.ar/ssgp/html/pdf/check_list.pdf',
     },
     {
       referencia:
